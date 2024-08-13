@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cockatrice (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Cockatrice (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

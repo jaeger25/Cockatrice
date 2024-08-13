@@ -13,3 +13,6 @@ compile_commands.json
 .vscode/
 .cache
 .gdb_history
+/cockatrice.winui/Cockatrice/obj
+/cockatrice.winui/Cockatrice/bin
+/cockatrice.winui/Cockatrice/Cockatrice.csproj.user
