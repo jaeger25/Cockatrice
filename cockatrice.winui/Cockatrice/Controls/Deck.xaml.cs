@@ -16,13 +16,28 @@ using Windows.Foundation.Collections;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace Cockatrice
+namespace Cockatrice.Controls
 {
-    public sealed partial class MainWindow : Window
+    public sealed partial class Deck : UserControl
     {
-        public MainWindow()
+        public Deck()
         {
             this.InitializeComponent();
+        }
+
+        private void UserControl_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+
+        }
+
+        private void UserControl_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
+
+        private void UserControl_RightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+
         }
     }
 }
