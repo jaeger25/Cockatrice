@@ -15,9 +15,9 @@ using Microsoft.UI.Xaml.Navigation;
 
 namespace Cockatrice.Controls
 {
-    public sealed partial class PlayerBoard : UserControl
+    public sealed partial class PlayerCounter : UserControl
     {
-        public PlayerBoard()
+        public PlayerCounter()
         {
             this.InitializeComponent();
         }

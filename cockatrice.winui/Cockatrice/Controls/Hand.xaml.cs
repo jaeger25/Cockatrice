@@ -15,9 +15,9 @@ using Windows.Foundation.Collections;
 
 namespace Cockatrice.Controls
 {
-    public sealed partial class Deck : UserControl
+    public sealed partial class Hand : UserControl
     {
-        public Deck()
+        public Hand()
         {
             this.InitializeComponent();
         }

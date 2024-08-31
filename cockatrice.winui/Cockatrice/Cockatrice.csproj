@@ -13,8 +13,14 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Controls\Battlefield.xaml" />
+    <None Remove="Controls\CommandZone.xaml" />
     <None Remove="Controls\Deck.xaml" />
+    <None Remove="Controls\Exile.xaml" />
+    <None Remove="Controls\Graveyard.xaml" />
     <None Remove="Controls\PlayerBoard.xaml" />
+    <None Remove="Controls\PlayerInfo.xaml" />
+    <None Remove="Controls\SpellStack.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +53,30 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Controls\SpellStack.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\CommandZone.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Exile.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Graveyard.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\Battlefield.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\PlayerInfo.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Controls\PlayerBoard.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

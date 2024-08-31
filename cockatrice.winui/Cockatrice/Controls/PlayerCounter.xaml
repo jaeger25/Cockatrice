@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UserControl
-    x:Class="Cockatrice.Controls.PlayerBoard"
+    x:Class="Cockatrice.Controls.PlayerCounter"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Cockatrice.Controls"
@@ -18,15 +18,7 @@
 
         <StackPanel Grid.Column="0">
 
-            <local:PlayerInfo></local:PlayerInfo>
-
-            <local:Deck />
-            
-            <local:Hand />
-
-            <local:Graveyard />
-
-            <local:Exile />
+            <TextBlock>C</TextBlock>
 
         </StackPanel>
 
